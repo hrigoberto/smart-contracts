@@ -8,6 +8,10 @@ contract Lottery {
 
   address owner;
 
+  function Lottery() {
+    owner = msg.sender;
+  }
+
   function Bet() public payable {
     if (msg.value > 0) {
       if (usersBet[msg.sender] == 0) {
