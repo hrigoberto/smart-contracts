@@ -1,0 +1,20 @@
+[
+  {
+    "constant":false,
+    "inputs":[],
+    "name":"EndLottery",
+    "outputs":[],
+    "payable":false,
+    "stateMutability":"nonpayable",
+    "type":"function"
+  },
+  {
+    "constant":false,
+    "inputs":[],
+    "name":"Bet",
+    "outputs":[],
+    "payable":true,
+    "stateMutability":"payable",
+    "type":"function"
+  }
+]
